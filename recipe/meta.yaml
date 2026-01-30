@@ -1,5 +1,5 @@
 {% set name = "github-copilot-sdk" %}
-{% set version = "0.1.19" %}
+{% set version = "0.1.20" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/github_copilot_sdk-{{ version }}.tar.gz
-  sha256: 2bba9db1ee0b3b6ff751568489777224e381c15427e253f98731c01a936833c2
+  sha256: 9e89cd46577fd18dd808d7113b7e20e021c4f944121a0a4891945460fb26c53c
 
 build:
   noarch: python
