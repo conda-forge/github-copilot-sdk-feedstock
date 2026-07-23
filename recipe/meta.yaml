@@ -1,5 +1,5 @@
 {% set name = "github-copilot-sdk" %}
-{% set version = "1.0.7" %}
+{% set version = "1.0.8" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/py3/{{ name[0] }}/{{ name }}/github_copilot_sdk-{{ version }}-py3-none-any.whl
-  sha256: 6f3e74e1779a4508dd6636e06fd0aa55eb6244805a66d61a4f21b30c958e2985
+  sha256: 7c3d868b73daa3a154ae6c1c5a2bd9301c47349c6b080f1ed77ba9027da3e0fa
 
 build:
   noarch: python
