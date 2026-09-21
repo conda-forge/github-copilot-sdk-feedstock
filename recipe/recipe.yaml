@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: github-copilot-sdk
-  version: "1.0.13"
+  version: "1.0.14"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/py3/${{ name[0] }}/${{ name }}/github_copilot_sdk-${{ version }}-py3-none-any.whl
-  sha256: 941dd5b55cf32ba55c73c651052a4a52b259b470c68bf6a6ac3d240c235402c9
+  sha256: 9f4538cec7295f24507c650d794307396458a51f280a0fbbcd840da177109050
 
 build:
   number: 0
